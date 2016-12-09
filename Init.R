@@ -1,4 +1,6 @@
-fileName <- "up_down.txt"
+setwd('D:/Flexcube/Logs Buddy');
+
+fileName <- "logs.txt"
 conn <- file(fileName,open="r")
 linn <-readLines(conn)
 for (i in 1:length(linn)){
